@@ -19,7 +19,7 @@ void addition(int grid1[3][3], int grid2[3][3])
 	}
 }
 /**
- * print - print a grid
+ * grid_print - print a grid
  * @grid: matrix
  */
 void grid_print(int grid[3][3])
@@ -96,7 +96,7 @@ void grid_ch(int grid1[3][3])
 	addition(grid1, gridx);
 }
 /**
- * sandpiles_plus - sum 2 sandpiles
+ * sandpiles_sum - sum 2 sandpiles
  * @grid1: first matrix
  * @grid2: second matrix
  */
